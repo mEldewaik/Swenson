@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let x = FibonacciFinder()
-        print(x.generateTheNthFibonacciNumberIterative(45))
+        print(x.fibIterative(5))
     }
 
 
