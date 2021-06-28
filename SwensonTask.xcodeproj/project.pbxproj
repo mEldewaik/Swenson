@@ -15,6 +15,7 @@
 		1B8695D5268A68A7005856B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8695D3268A68A7005856B6 /* LaunchScreen.storyboard */; };
 		1B8695DE268A69D4005856B6 /* ArithmeticOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695DD268A69D4005856B6 /* ArithmeticOperators.swift */; };
 		1B8695E1268A6BEC005856B6 /* Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695E0268A6BEC005856B6 /* Anagrams.swift */; };
+		1B8695E4268A714C005856B6 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695E3268A714C005856B6 /* Fibonacci.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1B8695D6268A68A7005856B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8695DD268A69D4005856B6 /* ArithmeticOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperators.swift; sourceTree = "<group>"; };
 		1B8695E0268A6BEC005856B6 /* Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagrams.swift; sourceTree = "<group>"; };
+		1B8695E3268A714C005856B6 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		4D3FE374DE5C86E58B4660D9 /* Pods-SwensonTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwensonTask.release.xcconfig"; path = "Target Support Files/Pods-SwensonTask/Pods-SwensonTask.release.xcconfig"; sourceTree = "<group>"; };
 		81938D9BA59F6756F2C718F2 /* Pods_SwensonTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwensonTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82157075E8D4C3B0AF8008D /* Pods-SwensonTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwensonTask.debug.xcconfig"; path = "Target Support Files/Pods-SwensonTask/Pods-SwensonTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		1B8695C7268A68A3005856B6 /* SwensonTask */ = {
 			isa = PBXGroup;
 			children = (
+				1B8695E2268A7124005856B6 /* III.Fibonacci */,
 				1B8695DF268A6BDC005856B6 /* II.Anagrams */,
 				1B8695DC268A699E005856B6 /* I.ArithmeticOperators */,
 				1B8695C8268A68A3005856B6 /* AppDelegate.swift */,
@@ -91,6 +94,14 @@
 				1B8695E0268A6BEC005856B6 /* Anagrams.swift */,
 			);
 			path = II.Anagrams;
+			sourceTree = "<group>";
+		};
+		1B8695E2268A7124005856B6 /* III.Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				1B8695E3268A714C005856B6 /* Fibonacci.swift */,
+			);
+			path = III.Fibonacci;
 			sourceTree = "<group>";
 		};
 		35D6A3C0D4B9B1001B2D0BF7 /* Pods */ = {
@@ -206,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8695E4268A714C005856B6 /* Fibonacci.swift in Sources */,
 				1B8695DE268A69D4005856B6 /* ArithmeticOperators.swift in Sources */,
 				1B8695CD268A68A3005856B6 /* ViewController.swift in Sources */,
 				1B8695C9268A68A3005856B6 /* AppDelegate.swift in Sources */,
