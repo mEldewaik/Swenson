@@ -3,32 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		010D6C89F5D83C609FED47FB /* Pods_SwensonTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81938D9BA59F6756F2C718F2 /* Pods_SwensonTask.framework */; };
+		1B357930268BC6F700752653 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35792F268BC6F700752653 /* UIViewController+Ext.swift */; };
+		1B357935268BC86500752653 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B357932268BC86500752653 /* Roboto-Medium.ttf */; };
+		1B357936268BC86500752653 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B357933268BC86500752653 /* Roboto-Bold.ttf */; };
+		1B357937268BC86500752653 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B357934268BC86500752653 /* Roboto-Regular.ttf */; };
 		1B8695C9268A68A3005856B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695C8268A68A3005856B6 /* AppDelegate.swift */; };
-		1B8695CD268A68A3005856B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695CC268A68A3005856B6 /* ViewController.swift */; };
-		1B8695D0268A68A3005856B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8695CE268A68A3005856B6 /* Main.storyboard */; };
 		1B8695D2268A68A7005856B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8695D1268A68A7005856B6 /* Assets.xcassets */; };
 		1B8695D5268A68A7005856B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8695D3268A68A7005856B6 /* LaunchScreen.storyboard */; };
 		1B8695DE268A69D4005856B6 /* ArithmeticOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695DD268A69D4005856B6 /* ArithmeticOperators.swift */; };
 		1B8695E1268A6BEC005856B6 /* Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695E0268A6BEC005856B6 /* Anagrams.swift */; };
 		1B8695E4268A714C005856B6 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695E3268A714C005856B6 /* Fibonacci.swift */; };
+		1B8695E7268A79BA005856B6 /* Currency.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8695E6268A79BA005856B6 /* Currency.storyboard */; };
+		1B8695E9268A79FF005856B6 /* CurrencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695E8268A79FF005856B6 /* CurrencyVC.swift */; };
+		1B8695EC268A7A58005856B6 /* Gradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695EB268A7A58005856B6 /* Gradiant.swift */; };
+		1B8695F0268A7BEE005856B6 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695EF268A7BEE005856B6 /* UITableView+Ext.swift */; };
+		1B8695F7268A7C4F005856B6 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695F5268A7C4F005856B6 /* CurrencyTableViewCell.swift */; };
+		1B8695F8268A7C4F005856B6 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8695F6268A7C4F005856B6 /* CurrencyTableViewCell.xib */; };
+		1B8695FA268A7C99005856B6 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695F9268A7C99005856B6 /* CurrencyViewModel.swift */; };
+		1B8695FD268A7CE6005856B6 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695FC268A7CE6005856B6 /* ApiRouter.swift */; };
+		1B8695FF268A7DAF005856B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8695FE268A7DAF005856B6 /* Constants.swift */; };
+		1B869601268A7E79005856B6 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B869600268A7E79005856B6 /* CurrencyModel.swift */; };
+		1B869603268A82AB005856B6 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B869602268A82AB005856B6 /* UIView+Ext.swift */; };
+		1B869605268A8599005856B6 /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B869604268A8599005856B6 /* Double+Ext.swift */; };
+		1B869607268A87DE005856B6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B869606268A87DE005856B6 /* Helper.swift */; };
+		1BEF7C5A268BD03E00FFE763 /* Converter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEF7C59268BD03E00FFE763 /* Converter.storyboard */; };
+		1BEF7C5C268BD16300FFE763 /* CurrencyConverterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF7C5B268BD16300FFE763 /* CurrencyConverterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B35792F268BC6F700752653 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		1B357932268BC86500752653 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1B357933268BC86500752653 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1B357934268BC86500752653 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		1B8695C5268A68A3005856B6 /* SwensonTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwensonTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8695C8268A68A3005856B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B8695CC268A68A3005856B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B8695CF268A68A3005856B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B8695D1268A68A7005856B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B8695D4268A68A7005856B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B8695D6268A68A7005856B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8695DD268A69D4005856B6 /* ArithmeticOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperators.swift; sourceTree = "<group>"; };
 		1B8695E0268A6BEC005856B6 /* Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagrams.swift; sourceTree = "<group>"; };
 		1B8695E3268A714C005856B6 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		1B8695E6268A79BA005856B6 /* Currency.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Currency.storyboard; sourceTree = "<group>"; };
+		1B8695E8268A79FF005856B6 /* CurrencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyVC.swift; sourceTree = "<group>"; };
+		1B8695EB268A7A58005856B6 /* Gradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradiant.swift; sourceTree = "<group>"; };
+		1B8695EF268A7BEE005856B6 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		1B8695F5268A7C4F005856B6 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		1B8695F6268A7C4F005856B6 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		1B8695F9268A7C99005856B6 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		1B8695FC268A7CE6005856B6 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		1B8695FE268A7DAF005856B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1B869600268A7E79005856B6 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		1B869602268A82AB005856B6 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		1B869604268A8599005856B6 /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+		1B869606268A87DE005856B6 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1BEF7C59268BD03E00FFE763 /* Converter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Converter.storyboard; sourceTree = "<group>"; };
+		1BEF7C5B268BD16300FFE763 /* CurrencyConverterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterVC.swift; sourceTree = "<group>"; };
 		4D3FE374DE5C86E58B4660D9 /* Pods-SwensonTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwensonTask.release.xcconfig"; path = "Target Support Files/Pods-SwensonTask/Pods-SwensonTask.release.xcconfig"; sourceTree = "<group>"; };
 		81938D9BA59F6756F2C718F2 /* Pods_SwensonTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwensonTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82157075E8D4C3B0AF8008D /* Pods-SwensonTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwensonTask.debug.xcconfig"; path = "Target Support Files/Pods-SwensonTask/Pods-SwensonTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B357931268BC80C00752653 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B357933268BC86500752653 /* Roboto-Bold.ttf */,
+				1B357932268BC86500752653 /* Roboto-Medium.ttf */,
+				1B357934268BC86500752653 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		1B8695BC268A68A3005856B6 = {
 			isa = PBXGroup;
 			children = (
@@ -67,12 +111,11 @@
 		1B8695C7268A68A3005856B6 /* SwensonTask */ = {
 			isa = PBXGroup;
 			children = (
-				1B8695E2268A7124005856B6 /* III.Fibonacci */,
-				1B8695DF268A6BDC005856B6 /* II.Anagrams */,
 				1B8695DC268A699E005856B6 /* I.ArithmeticOperators */,
+				1B8695DF268A6BDC005856B6 /* II.Anagrams */,
+				1B8695E2268A7124005856B6 /* III.Fibonacci */,
+				1B8695E5268A7990005856B6 /* Converter */,
 				1B8695C8268A68A3005856B6 /* AppDelegate.swift */,
-				1B8695CC268A68A3005856B6 /* ViewController.swift */,
-				1B8695CE268A68A3005856B6 /* Main.storyboard */,
 				1B8695D1268A68A7005856B6 /* Assets.xcassets */,
 				1B8695D3268A68A7005856B6 /* LaunchScreen.storyboard */,
 				1B8695D6268A68A7005856B6 /* Info.plist */,
@@ -104,6 +147,86 @@
 			path = III.Fibonacci;
 			sourceTree = "<group>";
 		};
+		1B8695E5268A7990005856B6 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				1BEF7C58268BD02900FFE763 /* CurrencyConverrterr */,
+				1B8695FB268A7CD6005856B6 /* Service */,
+				1B8695EA268A7A4D005856B6 /* Utilities */,
+				1B8695F1268A7C16005856B6 /* Currency */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		1B8695EA268A7A4D005856B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1B357931268BC80C00752653 /* Fonts */,
+				1B8695EB268A7A58005856B6 /* Gradiant.swift */,
+				1B8695EF268A7BEE005856B6 /* UITableView+Ext.swift */,
+				1B8695FE268A7DAF005856B6 /* Constants.swift */,
+				1B869602268A82AB005856B6 /* UIView+Ext.swift */,
+				1B869604268A8599005856B6 /* Double+Ext.swift */,
+				1B869606268A87DE005856B6 /* Helper.swift */,
+				1B35792F268BC6F700752653 /* UIViewController+Ext.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1B8695F1268A7C16005856B6 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				1B8695F4268A7C33005856B6 /* Model */,
+				1B8695F3268A7C2B005856B6 /* ViewModel */,
+				1B8695F2268A7C23005856B6 /* View */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		1B8695F2268A7C23005856B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B8695E6268A79BA005856B6 /* Currency.storyboard */,
+				1B8695E8268A79FF005856B6 /* CurrencyVC.swift */,
+				1B8695F5268A7C4F005856B6 /* CurrencyTableViewCell.swift */,
+				1B8695F6268A7C4F005856B6 /* CurrencyTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B8695F3268A7C2B005856B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1B8695F9268A7C99005856B6 /* CurrencyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1B8695F4268A7C33005856B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B869600268A7E79005856B6 /* CurrencyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B8695FB268A7CD6005856B6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1B8695FC268A7CE6005856B6 /* ApiRouter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1BEF7C58268BD02900FFE763 /* CurrencyConverrterr */ = {
+			isa = PBXGroup;
+			children = (
+				1BEF7C59268BD03E00FFE763 /* Converter.storyboard */,
+				1BEF7C5B268BD16300FFE763 /* CurrencyConverterVC.swift */,
+			);
+			path = CurrencyConverrterr;
+			sourceTree = "<group>";
+		};
 		35D6A3C0D4B9B1001B2D0BF7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +255,7 @@
 				1B8695C1268A68A3005856B6 /* Sources */,
 				1B8695C2268A68A3005856B6 /* Frameworks */,
 				1B8695C3268A68A3005856B6 /* Resources */,
+				3B465E806829B0CD59BF6931 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,15 +303,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B357935268BC86500752653 /* Roboto-Medium.ttf in Resources */,
+				1B357937268BC86500752653 /* Roboto-Regular.ttf in Resources */,
+				1B8695F8268A7C4F005856B6 /* CurrencyTableViewCell.xib in Resources */,
+				1BEF7C5A268BD03E00FFE763 /* Converter.storyboard in Resources */,
+				1B357936268BC86500752653 /* Roboto-Bold.ttf in Resources */,
 				1B8695D5268A68A7005856B6 /* LaunchScreen.storyboard in Resources */,
+				1B8695E7268A79BA005856B6 /* Currency.storyboard in Resources */,
 				1B8695D2268A68A7005856B6 /* Assets.xcassets in Resources */,
-				1B8695D0268A68A3005856B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3B465E806829B0CD59BF6931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwensonTask/Pods-SwensonTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwensonTask/Pods-SwensonTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwensonTask/Pods-SwensonTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		99309D8FAE56B9016FB3E073 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,24 +364,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8695E4268A714C005856B6 /* Fibonacci.swift in Sources */,
+				1B8695FF268A7DAF005856B6 /* Constants.swift in Sources */,
+				1B869607268A87DE005856B6 /* Helper.swift in Sources */,
+				1B869601268A7E79005856B6 /* CurrencyModel.swift in Sources */,
+				1B8695E9268A79FF005856B6 /* CurrencyVC.swift in Sources */,
+				1B869605268A8599005856B6 /* Double+Ext.swift in Sources */,
 				1B8695DE268A69D4005856B6 /* ArithmeticOperators.swift in Sources */,
-				1B8695CD268A68A3005856B6 /* ViewController.swift in Sources */,
 				1B8695C9268A68A3005856B6 /* AppDelegate.swift in Sources */,
+				1B8695F7268A7C4F005856B6 /* CurrencyTableViewCell.swift in Sources */,
+				1B8695F0268A7BEE005856B6 /* UITableView+Ext.swift in Sources */,
 				1B8695E1268A6BEC005856B6 /* Anagrams.swift in Sources */,
+				1B869603268A82AB005856B6 /* UIView+Ext.swift in Sources */,
+				1B8695FD268A7CE6005856B6 /* ApiRouter.swift in Sources */,
+				1B8695FA268A7C99005856B6 /* CurrencyViewModel.swift in Sources */,
+				1BEF7C5C268BD16300FFE763 /* CurrencyConverterVC.swift in Sources */,
+				1B357930268BC6F700752653 /* UIViewController+Ext.swift in Sources */,
+				1B8695EC268A7A58005856B6 /* Gradiant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1B8695CE268A68A3005856B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B8695CF268A68A3005856B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B8695D3268A68A7005856B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

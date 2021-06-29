@@ -6,10 +6,14 @@
 //
 
 import UIKit
+import AlamofireEasyLogger
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let alamofireLogger = FancyAppAlamofireLogger(prettyPrint: true) {
+        print($0)
+    }
 
     var window: UIWindow?
 

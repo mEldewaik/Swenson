@@ -6,5 +6,11 @@ target 'SwensonTask' do
   use_frameworks!
 
   # Pods for SwensonTask
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'NVActivityIndicatorView', '~> 4.8.0'
+  pod 'AlamofireEasyLogger'
 
 end
